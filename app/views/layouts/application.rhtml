@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="keywords" content="environment, environmental, green, technology, contaminates, spills, waste removal, toxic, industrial spills, sorbents, oklahoma, tulsa, environment, environmental services, environmental products, EPA, environmental law, <%= @article.keywords if @article %>"/>
+    <meta name="description" content="<%= @article.description + " " if @article %>ACME Environmental - Since 1967, ACME Environmental has been a leader in the design, manufacture and use of environmental products that control, collect and remove floating contaminates of the surface of water, as well as products that handle most industrial spills."/>
+    
+		<title><%= @page_title -%></title>
+		<%= stylesheet_link_tag 'application' %>
+		<%= javascript_include_tag :defaults %>
+		<%= javascript_include_tag 'application' %>
+		<%= @optional_js_include %>
+	</head>
+	<body class="<%= @body_class -%>">
+		<div id="container">
+			<div id="bkgd_container">
+				<h1>Acme Environmental<span class="imgrep"></span></h1>
+				<ul id="main_nav">
+					<li id="spacer"></li>
+					<li>&nbsp;&nbsp;</li>
+					<li id="request_quote">&nbsp;&nbsp;<%= link_to 'Request A Quote', {:controller => 'request_quote', :action => 'index'}, {:title => 'Request A Quote'} -%>&nbsp;&nbsp;</li>
+					<li class="sep"></li>
+					<li id="contact_acme">&nbsp;&nbsp;<%= link_to 'Contact', {:controller => 'contact', :action => 'index'}, {:title => 'Contact Acme Environmental'} -%>&nbsp;&nbsp;</li>
+					<li class="sep"></li>
+					<li id="home">&nbsp;&nbsp;<%= link_to 'Home', {:controller => 'index', :action => 'index'}, {:title => 'Acme Environmental Home'} -%>&nbsp;&nbsp;</li>
+					<li class="sep"></li>
+				</ul>
+				<ul id="left_nav">
+					<li id="services"><%= link_to link_arrows << 'Spill Response Services', {:controller => 'spill_response_service', :action => 'index'}, {:title => 'Learn about Spill Response Services'} -%></li>
+					<li id="products"><%= link_to link_arrows << 'Products', {:controller => 'product', :action => 'categories'}, {:title => 'Product Categories'} -%></li>
+					
+					<li id="categories_container" style="display: none;">
+					 
+					</li>
+					
+					<li id="about"><%= link_to link_arrows << 'About Us', {:controller => 'about', :action => 'index'}, {:title => 'Learn about Acme Environmental'} -%></li>
+					<li id="news"><%= link_to link_arrows << 'News', {:controller => 'news', :action => 'index'}, {:title => 'Acme Environmental News'} -%></li>
+					<li id="links"><%= link_to link_arrows << 'Useful Links', {:controller => 'links', :action => 'index'}, {:title => 'Useful links from Acme Environmental'} -%></li>
+					<li id="contact"><%= link_to link_arrows << 'Contact Us', {:controller => 'contact', :action => 'index'}, {:title => 'Contact Acme Environmental'} -%></li>
+				</ul>
+				<div id="content">
+					<%= yield :layout -%>
+				</div>
+			</div>
+		</div>
+		<div id="nav_cache">
+			<input type="hidden" id="left_nav_cache" name="left_nav_cache" />
+		</div>
+	</body>
+</html>

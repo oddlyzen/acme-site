@@ -1,0 +1,17 @@
+<div class="admin-form">
+  
+  <%= error_messages_for :category %>
+  
+  <fieldset>
+    <legend>Add New Category</legend>
+    <% form_for :category, :action => :add_category do |form| %>
+    
+      <%= render :partial => "category_form", :locals => { :form => form } %>
+    
+      <p style="padding-top:25px;">
+        <%= submit_tag "Add Category" %>
+      </p>
+    <% end %>
+  </fieldset>
+  
+</div>

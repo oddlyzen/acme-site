@@ -1,0 +1,14 @@
+<ul id="categories">
+<% @categories.each do |c| -%>
+	<li id="cat<%= c.id -%>">
+		<%
+			#if c.product_subcategories.size > 0
+			#	@function = "showSubcategories('cat" + c.id.to_s + "');"
+			#else
+				@function = "navToCategory('" + c.id.to_s + "');"
+			#end
+		-%>
+		<a href="javascript:<%= @function -%>" title="<%= h(c.category) -%>"><%= h(c.category) -%></a>
+	</li>
+<% end -%>
+</ul>

@@ -1,0 +1,16 @@
+<div class="admin-form">
+  
+  <%= error_messages_for :product %>
+  
+  <fieldset>
+    <legend>Edit Product</legend>
+    <% form_for :product, @product, :url => {:controller => :admin, :action => :update_product, :id => @product} do |form| %>
+    
+      <%= render :partial => "product_form", :locals => { :form => form } %>
+    
+      <p style="padding-top:25px;">
+        <%= submit_tag "Save Changes" %>
+      </p>
+    <% end %>
+  </fieldset>
+</div>

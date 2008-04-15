@@ -1,0 +1,8 @@
+<%- div_for(article) do -%>
+  <h5><%= h(article.title) %></h5>
+  <span class="byline">by <%= h(article.user.display_name) %></span>
+  <p class="article">
+    <%= sanitize(article.description) %>
+  </p>
+  <%= link_to "Read More", {:controller => :news, :action => :article, :id => article} %>
+<%- end -%>

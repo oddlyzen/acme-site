@@ -1,0 +1,13 @@
+<h3 style="padding-bottom: 30px;">
+  Listing Product Categories
+</h3>
+
+<ul>
+  <% for category in @categories -%>
+    <li>
+      [<%= link_to "Edit", {:action => :edit_category, :id => category} %>]&nbsp;[<%= link_to "Delete", {:action => :delete_category, :id => category}, {:method => :post, :confirm => "Are you sure you want to delete this category? ALL SUBCATEGORIES AND PRODUCTS WILL BE DELETED TOO!"} %>]&nbsp;&nbsp;&nbsp;<%= h(category.category) %>
+    </li>
+  <% end -%>
+  <br />
+  <%= link_to "Add New Category", {:action => :add_category} %>
+</ul>

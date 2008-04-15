@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/plugins/table/jscripts"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   committed-rev="67"
+   name="row.js"
+   text-time="2007-01-02T01:04:16.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="a90f77bea2cc7e976717654f84b270b0"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:16.000000Z"/>
+<entry
+   committed-rev="67"
+   name="table.js"
+   text-time="2007-01-02T01:04:16.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="033ef4cb9e0a53556973a0751b4ef267"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:16.000000Z"/>
+<entry
+   committed-rev="67"
+   name="cell.js"
+   text-time="2007-01-02T01:04:16.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="fc3f02f6ca583c7397dad6e54caa9fe5"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:16.000000Z"/>
+<entry
+   committed-rev="67"
+   name="merge_cells.js"
+   text-time="2007-01-02T01:04:16.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="05db808079932f18c4fc068435c3914e"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:16.000000Z"/>
+</wc-entries>

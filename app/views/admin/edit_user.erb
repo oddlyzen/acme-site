@@ -1,0 +1,17 @@
+<div class="admin-form">
+<%= error_messages_for 'user' %>
+  
+  <fieldset>
+    <legend>Edit User Details</legend>
+    
+    <% form_for :user, @user, { :method => :put , :action => :update_user } do |form| %>
+      
+      <%= render :partial => 'user_form', :locals => { :form => form } %>
+      
+      <%= submit_tag "Update Administrator", :class => "submit" %>
+      
+    <% end %>
+    
+  </fieldset>
+  
+</div>

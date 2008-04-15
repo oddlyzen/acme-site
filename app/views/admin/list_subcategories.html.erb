@@ -1,0 +1,11 @@
+<h3 style="padding-bottom: 30px;">
+  Listing Subcategories
+</h3>
+
+<ul>
+  <% for subcategory in @subcategories -%>
+    <li>
+      [<%= link_to "Edit", {:action => :edit_subcategory, :id => subcategory} %>]&nbsp;[<%= link_to "Delete", {:action => :delete_subcategory, :id => subcategory}, {:method => :post, :confirm => "Are you sure you want to delete this subcategory?"} %>]&nbsp;&nbsp;&nbsp;<%= h(subcategory.subcategory) %>
+    </li>
+  <% end -%>
+</ul>

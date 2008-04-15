@@ -1,0 +1,17 @@
+<div class="admin-form">
+  
+  <%= error_messages_for :subcategory %>
+  
+  <fieldset>
+    <legend>Add New Subcategory</legend>
+    <% form_for :subcategory, :action => :add_subcategory do |form| %>
+    
+      <%= render :partial => "subcategory_form", :locals => { :form => form } %>
+    
+      <p style="padding-top:25px;">
+        <%= submit_tag "Add Subcategory" %>
+      </p>
+    <% end %>
+  </fieldset>
+  
+</div>

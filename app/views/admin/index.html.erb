@@ -1,0 +1,19 @@
+<h2 style="padding-bottom: 25px; font-size: 1.4em;">Welcome, <%= @user.display_name %></h2>
+
+<p>It is currently <%= Time.now.to_s(:long) -%>.</p>
+<p>There are currently <%= pluralize(User.find(:all).length, "administrator") %>. [<%= link_to "View/Edit", {:action => "list_users"} %> | <%= link_to "New", {:action => "add_user"} %>]</p>
+
+<h3>Latest News Article</h3>
+  <% if @latest_news %>
+    <h5><%= h(@latest_news.title) %></h5>
+    <p style="font-size:.7em;color:gray;margin-bottom:-5px;">by <%= h(@latest_news.user.display_name) %></p>
+    <p>
+      <%= sanitize(@latest_news.description) %>
+    </p>  
+    <p>[<%= link_to "Edit", {:action => "edit_news", :id => @latest_news.id} %> | <%= link_to "New", {:action => "add_news"} %>]</p>
+    
+  <% else %>
+    <h4 style="color:gray;">No current news.</h4>
+  <% end %>
+  
+  <p><strong>ACME</strong> currently lists <%= pluralize(@total_products, "product") %> for sale in <%= pluralize(@total_categories, "category") %>. [<%= link_to "View/Edit", {:action => :list_categories} %> | <%= link_to "New", {:action => :add_category} %>]</p>

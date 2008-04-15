@@ -1,0 +1,75 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>ACME Website Administration <%= "- " + @controller.action_name.titleize if @controller.action_name %></title>
+		<% # Include TinyMCE before other JS to avoid problems -%>
+    <%= javascript_include_tiny_mce_if_used %>
+    <%= tiny_mce if using_tiny_mce? %>
+    <%= stylesheet_link_tag 'application' %>
+    <%= javascript_include_tag :defaults %>
+		<%= javascript_include_tag 'application' %>
+		<%= @optional_js_include %>
+	</head>
+	<body class="admin">
+		<div id="container">
+			<div id="bkgd_container">
+				<h1>Acme Environmental<span class="imgrep"></span></h1>
+				<ul id="main_nav">
+				  <% if session[:user_id] -%>
+					    <li id="logout">&nbsp;&nbsp;<%= link_to "Logout", { :action => "logout" }, { :title => "Logout as Admin" } %>&nbsp;&nbsp;</li>
+					    <li class="sep"></li>
+					    <li id="admin-dashboard">&nbsp;&nbsp;<%= link_to "Back to Dashboard", { :action => "index" }, { :title => "Back to Admin Dashboard" } %>&nbsp;&nbsp;</li>
+					     <li class="sep"></li>
+					<% end -%>
+					<li id="spacer"></li>
+					<li>&nbsp;&nbsp;</li>
+					<li id="request_quote">&nbsp;&nbsp;<%= link_to 'Request A Quote', {:controller => 'request_quote', :action => 'index'}, {:title => 'Request A Quote'} -%>&nbsp;&nbsp;</li>
+					<li class="sep"></li>
+					<li id="contact_acme">&nbsp;&nbsp;<%= link_to 'Contact', {:controller => 'contact', :action => 'index'}, {:title => 'Contact Acme Environmental'} -%>&nbsp;&nbsp;</li>
+					<li class="sep"></li>
+					<li id="home">&nbsp;&nbsp;<%= link_to 'Home', {:controller => 'index', :action => 'index'}, {:title => 'Acme Environmental Home'} -%>&nbsp;&nbsp;</li>
+					<li class="sep"></li>
+				</ul>
+				<ul id="left_nav">
+				  <% if session[:user_id] -%>
+				    <li><%= link_to link_arrows << "Admin Dashboard", { :action => "index" } %></li>
+				    <li><%= link_to link_arrows << "Edit Users", { :action => "list_users" } %></li>
+				    <li><%= link_to link_arrows << "Add a User", { :action => "add_user" } %></li>
+				    <li><%= link_to link_arrows << "Upload Images", { :action => :add_image } %></li>
+				    <li><%= link_to link_arrows << "Edit News", { :action => "list_news" } %></li>
+				    <li><%= link_to link_arrows << "New Article", { :action => "add_news" } %></li>
+				    <li><%= link_to link_arrows << "Edit Product Categories", {:action => :list_categories} %></li>
+				    <li><%= link_to link_arrows << "New Product Category", {:action => :add_category} %></li>
+				    <li><%= link_to link_arrows << "Edit Subcategories", {:action => :list_subcategories} %></li>
+				    <li><%= link_to link_arrows << "Edit Sections", {:action => :list_sections} %></li>
+				    <li><%= link_to link_arrows << "Edit Products", { :action => :list_products } %></li>
+				    <li style="border-bottom: darkblue solid 1px;"><%= link_to link_arrows << "New Product", { :action => :add_product } %></li>
+					<% end -%>
+					<li id="services"><%= link_to link_arrows << 'Spill Response Services', {:controller => 'spill_response_service', :action => 'index'}, {:title => 'Learn about Spill Response Services'} -%></li>
+					<li id="products"><%= link_to link_arrows << 'Products', {:controller => 'product', :action => 'categories'}, {:title => 'Product Categories'} -%></li>
+					
+					<li id="categories_container" style="display: none;">
+					 
+					</li>
+					
+					<li id="about"><%= link_to link_arrows << 'About Us', {:controller => 'about', :action => 'index'}, {:title => 'Learn about Acme Environmental'} -%></li>
+					<li id="news"><%= link_to link_arrows << 'News', {:controller => 'news', :action => 'index'}, {:title => 'Acme Environmental News'} -%></li>
+					<li id="links"><%= link_to link_arrows << 'Useful Links', {:controller => 'links', :action => 'index'}, {:title => 'Useful links from Acme Environmental'} -%></li>
+					<li id="contact"><%= link_to link_arrows << 'Contact Us', {:controller => 'contact', :action => 'index'}, {:title => 'Contact Acme Environmental'} -%></li>
+				</ul>
+				<div id="content">
+				  <% if flash[:notice] %>
+            <div id="notice">
+              <%= flash[:notice] %>
+            </div>
+          <% end %>
+					<%= yield :layout -%>
+				</div>
+			</div>
+		</div>
+		<div id="nav_cache">
+			<input type="hidden" id="left_nav_cache" name="left_nav_cache" />
+		</div>
+	</body>
+</html>

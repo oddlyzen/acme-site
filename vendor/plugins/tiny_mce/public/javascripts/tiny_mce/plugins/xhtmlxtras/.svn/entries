@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/plugins/xhtmlxtras"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   committed-rev="67"
+   name="acronym.htm"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="a8d072ad7e44ee78298ec971510a73fe"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="editor_plugin.js"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="9eda0961c2dbe673e8a32d82fc4a3f05"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="ins.htm"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="e54e92b748f7c9bdebe9432ccce26293"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   name="jscripts"
+   kind="dir"/>
+<entry
+   name="langs"
+   kind="dir"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="editor_plugin_src.js"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="c3d9e97d42b67edebf0eb6d0a4b1d56a"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="cite.htm"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="a89d6899bc4b7cfd8a4ef6baa2ac98b1"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="del.htm"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="5d7274b7186ac3ae866a18107f807285"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="abbr.htm"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="4f4749a75328fcb3730217494dc168da"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+</wc-entries>

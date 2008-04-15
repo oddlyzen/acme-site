@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/plugins/media/css"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   committed-rev="67"
+   name="content.css"
+   text-time="2007-01-02T01:04:14.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="7805b88dddeaf34cdba81b7a2963faa7"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="media.css"
+   text-time="2007-01-02T01:04:14.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="ed8e040b8f481b3e031f25df169efab6"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+</wc-entries>

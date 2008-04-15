@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="Rakefile"
+   text-time="2007-01-02T01:04:21.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="35d0338f9ef7844acc7eb94007d8c840"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:07.000000Z"/>
+<entry
+   committed-rev="67"
+   name="tiny_mce_options.yml"
+   text-time="2007-01-02T01:04:21.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="4679939f3ac033bfb36aabcfe4a56f35"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:07.000000Z"/>
+<entry
+   name="tasks"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="TODO"
+   text-time="2007-01-02T01:04:21.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="28cc1c4f8765ccdefefac0c8d5de0606"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:07.000000Z"/>
+<entry
+   committed-rev="67"
+   name="init.rb"
+   text-time="2007-01-02T01:04:21.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="74e79eb0339c6edb8ad7d4b31c4a737c"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:07.000000Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="changelog"
+   text-time="2007-01-02T01:04:21.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="d6ecf9d454199601dbb6d6d03a069817"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:07.000000Z"/>
+<entry
+   name="docs"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="install.rb"
+   text-time="2007-01-02T01:04:21.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="cbe738c10eba4ae2da8c6859c9723e44"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="README"
+   text-time="2007-01-02T01:04:21.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="f7731bd7307855f766d0107719c50717"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   name="public"
+   kind="dir"/>
+</wc-entries>

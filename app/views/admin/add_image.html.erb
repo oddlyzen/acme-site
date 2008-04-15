@@ -1,0 +1,22 @@
+<%= error_messages_for :image %>
+
+<div class="admin-form">
+  <fieldset>
+    <legend>Upload an Image</legend>
+    <% form_for :image, :url => { :controller => :admin, :action => :create_image }, :html => { :method => :post, :multipart => true } do |form| -%>
+    
+      <p>
+        <label for="image_file">Choose an Image:</label>
+        <%= file_field_tag :image_file %><br/>
+        <span style="color:gray;font-size:.8em;">
+          We accept JPEG, GIF, or PNG files up to 500 KB.
+        </span>
+      </p>
+      
+      <p>
+        <%= submit_tag "Upload" %>
+      </p>
+    
+    <% end -%>
+  </fieldset>
+</div>

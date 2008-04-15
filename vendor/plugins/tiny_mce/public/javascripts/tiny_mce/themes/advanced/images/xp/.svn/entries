@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/themes/advanced/images/xp"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   committed-rev="67"
+   name="tab_end.gif"
+   text-time="2007-01-02T01:04:19.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="de9e554769bc24fc7f2acefddb04e895"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="tab_bg.gif"
+   text-time="2007-01-02T01:04:19.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="276f3f45f0d50a533187aefa7ce6b210"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="tab_sel_end.gif"
+   text-time="2007-01-02T01:04:19.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="6a4ffda436f2ffe5a56107d6c8c5a332"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="tab_sel_bg.gif"
+   text-time="2007-01-02T01:04:19.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="9787ead6369f4cb45f69e4dea1ceaeb1"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="tabs_bg.gif"
+   text-time="2007-01-02T01:04:19.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="b3a2d232dd5bf5e8a829571bbec08522"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+</wc-entries>

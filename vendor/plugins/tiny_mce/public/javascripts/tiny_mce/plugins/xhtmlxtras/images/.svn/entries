@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/plugins/xhtmlxtras/images"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   committed-rev="67"
+   name="date_time.gif"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="867e95f603e63a1f0c02fbde1490ab3e"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="remove_button_bg.gif"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="73e1c5d740280ff1510d552e5cbba206"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="cite.gif"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="62d9d435cb76aafe07aa6c96c8352c6d"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="del.gif"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="bb3d81d7c4b69a861b4e4f735869ed89"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="abbr.gif"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="37d9ef2c35bc1b2f5a4a0d56f9a434eb"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="acronym.gif"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="ce12c6467211f79c21a02db3ed2ff9c1"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="ins.gif"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="d108419ea42611dff062fa19674b108d"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+</wc-entries>

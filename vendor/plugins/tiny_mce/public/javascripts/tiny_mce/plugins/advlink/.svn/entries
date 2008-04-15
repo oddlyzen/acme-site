@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/plugins/advlink"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   committed-rev="67"
+   name="editor_plugin.js"
+   text-time="2007-01-02T01:04:16.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="b3b74662dad1cc9fdaee704efcbb0e46"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:16.000000Z"/>
+<entry
+   name="jscripts"
+   kind="dir"/>
+<entry
+   name="langs"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="link.htm"
+   text-time="2007-01-02T01:04:16.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="93e98a479cdff0b65fecdf5447b5250d"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:16.000000Z"/>
+<entry
+   committed-rev="67"
+   name="editor_plugin_src.js"
+   text-time="2007-01-02T01:04:16.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="7180cf88a3484c1cddf15e82e8f1242a"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:16.000000Z"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="readme.txt"
+   text-time="2007-01-02T01:04:16.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="fe81b122bcf0e8599bb841cca33f967a"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:16.000000Z"/>
+</wc-entries>

@@ -1,0 +1,28 @@
+<div id="product_detail">
+	<h3>
+		<% unless @product.alternate_title.nil? -%>
+		<%= h(@product.alternate_title) -%>
+		<% else -%>
+		<%= h(@product.product) -%>
+		<% end -%>
+	</h3>
+	<%= @product.content %>
+	<% if @product.price > 0 -%>
+	<p class="price"><%= number_to_currency(@product.price) -%></p>
+	<% end -%>
+	<% if @product.show_cart -%>
+	<table cellpadding="4" cellspacing="0" border="0" class="std">
+		<tbody>
+			<tr>
+				<td class="icon"><%= link_to(image_tag('add_to_cart_icon.jpg', {:size => '25x25', :title => 'Add ' + h(@product.product) + ' to your cart'}), {:controller => 'product', :action => 'add_to_cart', :id => @product.id}, {:title => 'Add ' + h(@product.product) + ' to your cart'}) -%></td>
+				<td><%= link_to('Add to Cart', {:controller => 'product', :action => 'add_to_cart', :id => @product.id}, {:title => 'Add ' + h(@product.product) + ' to your cart'}) -%></td>
+			</tr>
+			<tr>
+				<td class="icon"><%= link_to(image_tag('checkout_icon.jpg', {:size => '25x25', :title => 'Checkout'}), {:controller => 'product', :action => 'checkout'}, {:title => 'Checkout'}) -%></td>
+				<td><%= link_to('Checkout', {:controller => 'product', :action => 'checkout'}, {:title => 'Checkout'}) -%></td>
+			</tr>
+		</tbody>
+	</table>
+	<% end -%>
+	<a id="products_back" class="std" title="Return to <%= h(@subcategory.subcategory) -%>" href="/product/subcategories/<%= @category.id -%>">&lt; Return to <%= h(@category.category) -%>&nbsp;&lt;&nbsp;<%= h(@subcategory.subcategory) -%></a>
+</div>

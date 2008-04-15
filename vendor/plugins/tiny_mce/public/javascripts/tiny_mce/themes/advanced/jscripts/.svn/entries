@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/themes/advanced/jscripts"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   committed-rev="67"
+   name="source_editor.js"
+   text-time="2007-01-02T01:04:19.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="3c0905c0029d7f29f345d6ab9458c7e3"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="about.js"
+   text-time="2007-01-02T01:04:19.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="9dbaeafc4b982838c56404b70f23c275"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="anchor.js"
+   text-time="2007-01-02T01:04:19.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="c5f22de9e666ad5bba61dcaa26fbc8c5"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="charmap.js"
+   text-time="2007-01-02T01:04:19.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="bba182175b5aa5375586337ae6de2bf9"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="color_picker.js"
+   text-time="2007-01-02T01:04:19.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="849849f7ff62f9eb4b32e1544bbe0f87"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="link.js"
+   text-time="2007-01-02T01:04:19.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="d6907e4926f31e6eef865f18e766ee7d"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="image.js"
+   text-time="2007-01-02T01:04:19.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="71329085503bccbc7b8707a149e8216b"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+</wc-entries>

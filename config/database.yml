@@ -1,0 +1,11 @@
+development:
+  adapter: mysql
+  database: acme_development
+  username: root
+  password: 
+
+production:
+  adapter: mysql
+  database: acme_development
+  username: root
+  password: 

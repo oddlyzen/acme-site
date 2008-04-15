@@ -1,0 +1,9 @@
+<ul id="parent-products-list">
+  <% for p in @parent.products %>
+    <% domid = "product_#{p.id}" %>
+    <li class="parent-product" id="<%= domid %>">
+      <%= p.product %>
+    </li>
+    <%= draggable_element(domid, :ghosting => true, :revert => true) %>
+  <% end %>
+</ul>

@@ -1,0 +1,20 @@
+<h2 style="padding-bottom: 30px;">
+  Listing News Articles
+</h2>
+
+<% for article in @articles -%>
+  <h4><%= article.title %></h4>
+  <p>
+    <span style="font-size: .8em; color: gray;">by <%= article.user.display_name %></span>
+  </p>
+  <p style="color: gray;">
+    <span style="color:black;">Description:</span> <%= article.description %>
+  </p>
+  <p>
+    Body:  <%= article.body %>
+  </p>
+  <p style="color:red;">
+    <span style="color:black;">Keywords:</span> <%= article.keywords %>
+  </p>
+  <p><%= link_to "Edit", {:action => "edit_news", :id => article} %> | <%= link_to "Delete Article", {:controller => :admin, :action => :delete_news, :id => article}, {:method => :post, :confirm => "Really delete article?"} %></p>
+<% end -%>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/themes/advanced"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   name="jscripts"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="about.htm"
+   text-time="2007-01-02T01:04:20.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="e8ba5a4b2ef242bb521854ed89a5e6a6"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="anchor.htm"
+   text-time="2007-01-02T01:04:20.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="9930809042b8f1ebaab51d4ea23c5c8f"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="charmap.htm"
+   text-time="2007-01-02T01:04:20.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="0391875972ec40c7e1cbe0842791ab5c"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="color_picker.htm"
+   text-time="2007-01-02T01:04:20.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="f68446b78dd2fe6d93b413128045c4db"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   committed-rev="67"
+   name="editor_template_src.js"
+   text-time="2007-01-02T01:04:20.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="1f4cebfd2bda933a76b14018a9c6c431"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   name="langs"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="link.htm"
+   text-time="2007-01-02T01:04:20.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="6c3c4f78977636971fee22e156e8c27f"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:19.000000Z"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   name="docs"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="image.htm"
+   text-time="2007-01-02T01:04:20.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="7c492f5526dec43ff3bfe56db2e3d78a"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:20.000000Z"/>
+<entry
+   committed-rev="67"
+   name="editor_template.js"
+   text-time="2007-01-02T01:04:20.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="34f49851a46c0c3f5f90929fb5a1260e"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:20.000000Z"/>
+<entry
+   committed-rev="67"
+   name="source_editor.htm"
+   text-time="2007-01-02T01:04:20.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="5109edd6a3f233fcaca629c978d7aa5a"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:20.000000Z"/>
+</wc-entries>

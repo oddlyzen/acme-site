@@ -1,0 +1,51 @@
+<% unless @category.image.nil? -%>
+  <%= image_tag @category.image, {:style => "float:left;padding:5px;background-color:lightgray;border:gray 1px solid;margin:5px;clear:both;", :alt => "No Image"} %>
+<% end -%>
+<p style="clear:both">
+  <label for="category_image">Category Image:</label>
+  <%= form.text_field :image, :size => 40 %><br/>
+</p>
+<p>
+  <label for="category_image_alt">Image Alternate Text:</label>
+  <%= form.text_field :image_alt, :size => 20 %>
+</p>
+<p>
+  <label for="category_image_width">Image Width:&nbsp;</label>
+  <%= form.text_field :image_width, :size => 3 %><br/>
+  <label for="category_image_height">Image Height:</label>
+  <%= form.text_field :image_height, :size => 3 %>
+</p>
+  <p>
+    <label for="category_category">Category Name:</label>
+    <%= form.text_field :category, :size => 50 %>
+  </p>
+  <p>
+    <label for="category_content">Category Content:</label>
+    <%= form.text_area :content, :rows => 5, :width => 600 %>
+  </p>
+  <p>
+    <label for="category_short_desc">Short Description:</label>
+    <%= form.text_field :short_desc, :size => 75 %>
+  </p>
+  <p>
+    <label for="category_permalink">Permalink:</label>
+    <%= form.text_field :permalink, :size => 50 %>
+  </p>
+  <p>
+    <label for="category_active">Category is Active?</label>
+    <%= form.check_box :active %>
+  </p>
+  <% unless @category.id.nil? %>
+    <p>
+      <h5 style="padding-bottom:5px;">Product Subcategories</h5>
+      <ul>
+      <% for psc in @category.product_subcategories -%>
+        <li><%= link_to h(psc.subcategory), {:action => :edit_subcategory, :id => psc} %></li>
+      <% end -%>
+      </ul>
+      <span style="font-size:.7em;">
+        <%= link_to "Add New Subcategory", {:action => :add_subcategory, :category_id => @category} %>
+      </span><br/>
+       <%= form.check_box :show_subcategories %>&nbsp;<label for="category_show_subcategories" style="font-size:.7em;">Display Subcategories?</label>
+    </p>
+  <% end -%>

@@ -1,0 +1,26 @@
+<div id="section_content">
+	<h3><%= @section.section -%></h3>
+	<%= @section.content %>
+	
+	<% if @products.size > 0 -%>
+	<table cellpadding="4" cellspaceing="0" class="categories">
+		<% @products.each do |p| -%>
+		<tr>
+			<td class="image"><%= link_to(image_tag(p.list_image, :size => p.list_image_size, :alt => h(p.product)), {:controller => 'product', :action => 'view_product', :id => p.id, :subcat_id => @subcategory.id}, {:title => 'View details for: ' + h(p.product)}) -%></td>
+			<td class="desc">
+				<%= link_to h(p.product), {:controller => 'product', :action => 'view_product', :id => p.id, :subcat_id => @subcategory.id}, {:title => 'View details for: ' + h(p.product), :class => 'product_title'} -%>
+				<% unless p.short_desc.nil? -%>
+				<br />
+				<span><%= h(p.short_desc) -%></span>
+				<% end -%>
+			</td>
+			<% if p.show_cart -%>
+			<td class="add_to_cart"><%= image_tag('add_to_cart_icon.jpg', {:size => '25x25', :title => 'Add to cart'}) -%><%= link_to 'Add to Cart', {:controller => 'product', :action => 'add_to_cart', :id => p.id}, {:title => 'Add ' + h(p.product) + ' to your cart'} -%></td>
+			<% end -%>
+		</tr>
+		<% end -%>
+	</table>
+	<% end -%>
+	
+</div>
+<%= link_to '&lt; Back to ' + h(@subcategory.subcategory), {:controller => 'product', :action => 'view_subcategory', :id => @subcategory.id}, {:title => 'Back to ' + h(@subcategory.subcategory), :class => 'std'} -%>

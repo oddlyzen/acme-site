@@ -1,0 +1,17 @@
+				<h2>Useful Links</h2>
+				<% if @links.size > 0 -%>
+				<table id="links" cellpadding="4" cellspacing="0" border="0">
+					<% @links.each do |link| -%>
+					<tr>
+						<td class="icon">
+							<% unless link.logo_image.nil? -%>
+							<%= link_to image_tag(link.logo_image, :size => link.logo_size, :alt => h(link.title)), external_link(link.url), {:title => h(link.title)} -%>
+							<% end -%>
+						</td>
+						<td><strong><%= link_to(h(link.title), external_link(link.url), {:title => h(link.title)}) -%></strong><% unless link.desc.nil? -%> &mdash; <%= h(link.desc) -%><% end -%></td>
+					</tr>
+					<% end -%>
+				</table>
+				<% else -%>
+				<p>There are currently no items for this section. Please check back soon!</p>
+				<% end -%>

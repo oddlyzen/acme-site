@@ -1,0 +1,64 @@
+<% unless @product.large_image.nil? -%>
+  <%= image_tag @product.large_image, {:style => "float:left;padding:5px;background-color:lightgray;border:gray 1px solid;margin:5px;clear:both;", :alt => "No Image"} %>
+<% end -%>
+<p style="clear:both">
+  <label for="product_large_image">Product Image:</label>
+  <%= form.text_field :large_image, :size => 40 %><br/>
+</p>
+<p>
+  <label for="product_large_image_width">Image Width:&nbsp;</label>
+  <%= form.text_field :large_image_width, :size => 3 %><br/>
+  <label for="product_image_height">Image Height:</label>
+  <%= form.text_field :large_image_height, :size => 3 %>
+</p>
+<% unless @product.list_image.nil? -%>
+  <%= image_tag @product.list_image, {:style => "float:left;padding:5px;background-color:lightgray;border:gray 1px solid;margin:5px;clear:both;", :alt => "No Image"} %>
+<% end -%>
+<p style="clear:both">
+  <label for="product_list_image">Product List Image:</label>
+  <%= form.text_field :list_image, :size => 40 %><br/>
+</p>
+<p>
+  <label for="product_list_image_width">Image Width:&nbsp;</label>
+  <%= form.text_field :list_image_width, :size => 3 %><br/>
+  <label for="product_list_image_height">Image Height:</label>
+  <%= form.text_field :list_image_height, :size => 3 %>
+</p>
+  <p>
+    <label for="product_product">Product Name:</label>
+    <%= form.text_field :product, :size => 50 %>
+  </p>
+  <p>
+    <label for="product_alternate_title">Product Alternate Title:</label>
+    <%= form.text_field :alternate_title, :size => 50 %>
+  </p>
+  <p>
+    <label for="product_price">Product Price:</label>
+    <%= form.text_field :price, :size => 10 %>
+  </p>
+  <p>
+    <label for="product_content">Product Content:</label>
+    <%= form.text_area :content, :rows => 5, :width => 600 %>
+  </p>
+  <p>
+    <label for="product_short_desc">Short Description:</label>
+    <%= form.text_field :short_desc, :size => 75 %>
+  </p>
+  <p>
+    <label for="product_dimensions">Product Dimensions:</label>
+    <%= form.text_field :dimensions, :size => 10 %><br/>
+    <span style="font-size:.8em;color:gray;">(Example: 1" x 5" x 10")</span>
+  </p>
+  <p>
+    <label for="product_qty_per_pkg">Quantity per Package:</label>
+    <%= form.text_field :qty_per_pkg, :size => 10 %>
+  </p>
+  <p>
+    <label for="product_show_cart">Show Cart?</label>
+    <%= form.check_box :show_cart %>
+  </p>
+  <p>
+    <label for="product_position">Product Position:</label>
+    <%= form.text_field :position, :size => 3 %><br/>
+    <span style="font-size:.8em;color:gray;">(Note: Lower numbers are place higher in the product list.)</span>
+  </p>

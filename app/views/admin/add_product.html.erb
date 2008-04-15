@@ -1,0 +1,16 @@
+<div class="admin-form">
+  
+  <%= error_messages_for :product %>
+  
+  <fieldset>
+    <legend>Add New Product</legend>
+    <% form_for :product, :action => :add_product do |form| %>
+    
+      <%= render :partial => "product_form", :locals => { :form => form } %>
+    
+      <p style="padding-top:25px;">
+        <%= submit_tag "Add Product" %>
+      </p>
+    <% end %>
+  </fieldset>
+</div>

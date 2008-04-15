@@ -1,0 +1,20 @@
+<div id="product-list">
+  <h3>Product List</h3>
+
+  <ul>
+    <% for p in @products %>
+      <li class="<%= cycle("alt", "") %>">
+        <h5><%= p.product %></h5>
+          <% unless p.large_image.nil? %>
+            <%= image_tag p.large_image %>
+          <% end %>
+        <p>
+          <strong>Short Description:</strong>&nbsp;<%= p.short_desc %>
+        </p>
+        <span style="font-size:.8em;">
+          [<%= link_to "Edit Product", {:action => :edit_product, :id => p} %> | <%= link_to "Delete Product", {:action => :delete_product, :id => p}, {:method => :post, :confirm => "Are you sure you want to delete this product?"} %>]
+        </span>
+      </li>
+    <% end %>
+  </ul>
+</div>

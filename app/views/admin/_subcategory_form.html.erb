@@ -1,0 +1,58 @@
+ <% unless @subcategory.image.nil? -%>
+    <%= image_tag @subcategory.image, {:style => "float:left;padding:5px;background-color:lightgray;border:gray 1px solid;margin:5px;clear:both;", :alt => "No Image"} %>
+  <% end -%>
+  <p style="clear:both">
+    <label for="subcategory_image">Subcategory Image:</label>
+    <%= form.text_field :image, :size => 40 %><br/>
+  </p>
+  <p>
+    <label for="subcategory_image_width">Image Width:&nbsp;</label>
+    <%= form.text_field :width, :size => 3 %><br/>
+    <label for="subcategory_image_height">Image Height:</label>
+    <%= form.text_field :height, :size => 3 %>
+  </p>
+    <p>
+      <label for="subcategory_subcategory">Subcategory Name:</label>
+      <%= form.text_field :subcategory, :size => 50 %>
+    </p>
+    <p>
+      <label for="subcategory_content">Subcategory Content:</label>
+      <%= form.text_area :content, :rows => 5, :width => 600 %>
+    </p>
+    <p>
+      <label for="subcategory_short_desc">Short Description:</label>
+      <%= form.text_field :short_desc, :size => 75 %>
+    </p>
+    <p>
+      <label for="subcategory_permalink">Permalink:</label>
+      <%= form.text_field :permalink, :size => 50 %>
+    </p>
+    <p>
+      <label for="subcategory_active">Subcategory is Active?</label>
+      <%= form.check_box :active %>
+    </p>
+    <% unless @subcategory.id.nil? %>
+      <p>
+        <h5 style="padding-bottom:5px;">Sections</h5>
+        <ul>
+        <% for s in @subcategory.product_sections -%>
+          <li><%= link_to h(s.section), {:action => :edit_section, :id => s} %></li>
+        <% end -%>
+        </ul>
+        <span style="font-size:.7em;">
+          <%= link_to "Add New Section", {:action => :add_section, :subcategory_id => @subcategory} %>
+        </span>
+      </p>
+      <p>
+        <h5 style="padding-bottom:5px;">Products</h5>
+        <ul>
+        <% for p in @subcategory.products -%>
+          <li><%= link_to h(p.product), {:action => :edit_product, :id => p} %></li>
+        <% end -%>
+        </ul>
+        <span style="font-size:.7em;">
+          <%= link_to "Add New Product", {:action => :add_product, :subcategory_id => @subcategory} %> | 
+          <%= link_to "Manage Products for this Subcategory", {:action => :manage_subcategory_products, :id => @subcategory} %>
+        </span>
+      </p>
+    <% end -%>

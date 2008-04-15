@@ -1,0 +1,11 @@
+<h3 style="padding-bottom: 30px;">
+  Listing Sections
+</h3>
+
+<ul>
+  <% for section in @sections -%>
+    <li>
+      [<%= link_to "Edit", {:action => :edit_section, :id => section} %>]&nbsp;[<%= link_to "Delete", {:action => :delete_section, :id => section}, {:method => :post, :confirm => "Are you sure you want to delete this section?"} %>]&nbsp;&nbsp;&nbsp;<%= h(section.section) %>
+    </li>
+  <% end -%>
+</ul>

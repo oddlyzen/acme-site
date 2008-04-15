@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   name="utils"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="license.txt"
+   text-time="2007-01-02T01:04:21.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="0571cf371683742c14f1735079a78e38"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   name="plugins"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="tiny_mce.js"
+   text-time="2007-01-02T01:04:21.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="ae9f1a863b1d3686cf0c6ab0994acf2b"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   name="langs"
+   kind="dir"/>
+<entry
+   name="themes"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="tiny_mce_popup.js"
+   text-time="2007-01-02T01:04:21.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="26f7687b7d26060e7908d5377a54c0a7"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:20.000000Z"/>
+<entry
+   committed-rev="67"
+   name="tiny_mce_src.js"
+   text-time="2007-01-02T01:04:21.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="1a3c7082dbdc4b72906d73e022941a03"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:21.000000Z"/>
+<entry
+   committed-rev="67"
+   name="blank.htm"
+   text-time="2007-01-02T01:04:21.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="3478607047646d8c513a8a0d521d7b44"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:21.000000Z"/>
+</wc-entries>

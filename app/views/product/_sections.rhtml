@@ -1,0 +1,14 @@
+<ul>
+	<% @sections.each do |s| -%>
+		<li id="ps_<%= s.id -%>">
+			<%
+				if s.products.size > 0
+					@function = "showSectionProducts('ps_" + s.id.to_s + "')"
+				else
+					@function = "navToSection('" + s.id.to_s + "')"
+				end
+			-%>
+			<%= link_to_function h(s.section), @function, :title => h(s.section) -%>
+		</li>
+	<% end -%>
+</ul>

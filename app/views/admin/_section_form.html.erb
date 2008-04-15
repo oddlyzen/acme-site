@@ -1,0 +1,43 @@
+<% unless @section.list_image.nil? -%>
+   <%= image_tag @section.list_image, {:style => "float:left;padding:5px;background-color:lightgray;border:gray 1px solid;margin:5px;clear:both;", :alt => "No Image"} %>
+ <% end -%>
+ <p style="clear:both">
+   <label for="section_list_image">Section List Image:</label>
+   <%= form.text_field :list_image, :size => 40 %><br/>
+ </p>
+ <p>
+   <label for="section_image_width">Image Width:&nbsp;</label>
+   <%= form.text_field :width, :size => 3 %><br/>
+   <label for="section_image_height">Image Height:</label>
+   <%= form.text_field :height, :size => 3 %>
+ </p>
+   <p>
+     <label for="section_section">Section Name:</label>
+     <%= form.text_field :section, :size => 50 %>
+   </p>
+   <p>
+     <label for="section_content">Section Content:</label>
+     <%= form.text_area :content, :rows => 5, :width => 600 %>
+   </p>
+   <p>
+     <label for="section_short_desc">Short Description:</label>
+     <%= form.text_field :short_desc, :size => 75 %>
+   </p>
+   <p>
+     <label for="section_active">Section is Active?</label>
+     <%= form.check_box :active %>
+   </p>
+   <% unless @section.id.nil? %>
+     <p>
+       <h5 style="padding-bottom:5px;">Products</h5>
+       <ul>
+       <% for p in @section.products -%>
+         <li><%= link_to h(p.product), {:action => :edit_product, :id => p} %></li>
+       <% end -%>
+       </ul>
+       <span style="font-size:.7em;">
+         <%= link_to "Add New Product", {:action => :add_product, :section_id => @section} %> | 
+         <%= link_to "Manage Products for this Section", {:action => :manage_section_products, :id => @section} %>
+       </span>
+     </p>
+   <% end -%>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/plugins/xhtmlxtras/jscripts"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   committed-rev="67"
+   name="cite.js"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="4decb74589c185c751a09bd0060caab1"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="del.js"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="674025f62a042870c6fa851595c8f0dd"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="abbr.js"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="2dce139840152b8ab218a13b0255200b"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="acronym.js"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="33e795740de3269f70f4688ef692e656"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="ins.js"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="6b34b4dfa8071c9d7a085f1d77115d7e"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   committed-rev="67"
+   name="element_common.js"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="530078c8e3283280f2f4ab1a040424e9"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+</wc-entries>

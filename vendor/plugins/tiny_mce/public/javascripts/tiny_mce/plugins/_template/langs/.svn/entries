@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/plugins/_template/langs"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   committed-rev="67"
+   name="en.js"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="630861192e7fb5e7f3b4ffe584342255"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:15.000000Z"/>
+</wc-entries>

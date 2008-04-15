@@ -1,0 +1,9 @@
+<h3>Current Administrators</h3>
+<ul>
+  <% for user in @all_users -%>
+    <li>[<%= link_to "Delete", {:action => :delete_user, :id => user}, {:method => :post, :confirm => "Really delete #{user.display_name}?"} %>]&nbsp;&nbsp;<%= h(user.display_name) + "&nbsp;&nbsp;<span style='color:#bdb;'>(<em>" + h(user.user_name) + "</em>)</span>" %></li>
+  <% end -%>
+</ul>
+<p style="padding-top: 15px;">
+  <%= link_to "Add a New Administrator", {:action => :add_user} %>
+</p>

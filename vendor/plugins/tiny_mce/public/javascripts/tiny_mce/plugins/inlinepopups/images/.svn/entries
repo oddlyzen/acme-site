@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/plugins/inlinepopups/images"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   committed-rev="67"
+   name="window_close.gif"
+   text-time="2007-01-02T01:04:14.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="dbd0ef59421094496fc06f00754cd28f"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="spacer.gif"
+   text-time="2007-01-02T01:04:14.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="221d8352905f2c38b3cb2bd191d630b0"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="window_minimize.gif"
+   text-time="2007-01-02T01:04:14.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="db7caf5944c85fa8d1fdfe9786672e16"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="window_resize.gif"
+   text-time="2007-01-02T01:04:14.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="7becf074be57ca4c386dda61ec406668"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="window_maximize.gif"
+   text-time="2007-01-02T01:04:14.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="b346e6682287174fe73f2ad522c7df22"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+</wc-entries>

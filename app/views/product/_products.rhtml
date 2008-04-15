@@ -1,0 +1,7 @@
+<ul>
+	<% @products.each do |p| -%>
+		<li id="p_<%= p.id -%>">
+			<%= link_to_function h(p.product), "navToProduct('" + p.id.to_s + "','" + @subcategory.id.to_s + "')", :title => h(p.product) -%>
+		</li>
+	<% end -%>
+</ul>

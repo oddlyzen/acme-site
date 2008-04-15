@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/plugins/emotions/images"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   committed-rev="67"
+   name="smiley-innocent.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="ec0477c8a206ff250782e40f9bae4b4c"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-surprised.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="eff5a6fbfb80ca2d3ae929b0a1c15638"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-money-mouth.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="11c14bd1496afd0e21df115d25b68e96"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-undecided.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="3c0c011d16b1a2331385ed97e160a42a"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-frown.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="59930208822fe755f651a67ef4b70530"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-cool.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="e26e97a318f82ec144b0818e5a8f8edb"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="emotions.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="a8be89f17ae897bace92ff0392f3f181"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-cry.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="e72bf995ceca9230273ed9909c5db9c8"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-sealed.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="28b9401b59fb7ad10b96f57aaa2630c4"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-laughing.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="b691cfd07d8181059f8a4b041d534cc4"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-yell.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="19bb8ebfe3c2f5ef3ffb9aa4a027900d"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-foot-in-mouth.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="905294088277f201be5a8e0285fb7998"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-embarassed.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="d59171236e6b0b96091eeda1f7b57ce3"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-tongue-out.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="5ec3bb4781c8e43a51d3a1a948b98fc0"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="readme.txt"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="1132d8274aa9f9cff223b73b1f5dddd0"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-wink.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="4ae6aa98aa63363c16ea74f927696bd9"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-smile.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="c676407db519bdf42481870746f097d8"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="smiley-kiss.gif"
+   text-time="2007-01-02T01:04:15.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="4ae8945f3960751b5d294f18242e144d"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+</wc-entries>

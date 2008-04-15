@@ -1,0 +1,19 @@
+<div class="admin-form">
+  
+  <%= error_messages_for :section %>
+  
+  <fieldset>
+    <legend>Edit Section</legend>
+    <% form_for :section, @section, :url => {:controller => :admin, :action => :update_section, :id => @section} do |form| %>
+    
+      <%= render :partial => "section_form", :locals => { :form => form } %>
+      
+      
+    
+      <p style="padding-top:25px;">
+        <%= submit_tag "Save Changes" %>
+      </p>
+    <% end %>
+  </fieldset>
+  
+</div>

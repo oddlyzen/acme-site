@@ -1,0 +1,28 @@
+<div id="manage-products">
+  <div id="left-container" style="width:48%;float:left;height:100%;">
+    <h4>Current Products for '<%= @parent_name %>'</h4>
+      <div id="parent-products">
+        <%= render :partial => "parent_products" %>
+      </div>
+      <span style="font-size:.8em;margin-top:15px;display:block;"><%= link_to "Back to '#{@parent_name}'", "#{request.env_table["HTTP_REFERER"]}" %></span>
+  </div>
+  <div id="right-container" style="width:48%;float:right;height:100%;">
+    <h4>Remaining Products</h4>
+      <div id="all-products">
+        <%= render :partial => "all_products" %>
+      </div>
+  </div>
+</div>
+
+<%= drop_receiving_element('parent-products',
+                  :accept => 'all-product',
+                  :hoverclass => 'hovering',
+                  :with => "'product_id=' + encodeURIComponent(element.id.split('_').last())",
+                  :url => {:action => :add_product_to_subcategory, :id => @parent}) %>
+<%= drop_receiving_element('all-products',
+                  :accept => 'parent-product',
+                  :hoverclass => 'hovering',
+                  :with => "'product_id=' + encodeURIComponent(element.id.split('_').last())",
+                  :url => {:action => :remove_product_from_subcategory, :id => @parent}) %>
+<%= sortable_element 'parent-products-list',
+                  :url => {:action => :sort_products} %>

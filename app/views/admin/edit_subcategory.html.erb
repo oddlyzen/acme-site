@@ -1,0 +1,19 @@
+<div class="admin-form">
+  
+  <%= error_messages_for :subcategory %>
+  
+  <fieldset>
+    <legend>Edit Subcategory</legend>
+    <% form_for :subcategory, @subcategory, :url => {:controller => :admin, :action => :update_subcategory, :id => @subcategory} do |form| %>
+    
+      <%= render :partial => "subcategory_form", :locals => { :form => form } %>
+      
+     
+    
+      <p style="padding-top:25px;">
+        <%= submit_tag "Save Changes" %>
+      </p>
+    <% end %>
+  </fieldset>
+  
+</div>

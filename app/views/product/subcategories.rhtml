@@ -1,0 +1,35 @@
+<h3><%= @category.category -%></h3>
+<%= @category.content -%>
+<br />
+<table cellpadding="4" cellspacing="0" class="categories">
+<%
+	if @subcategories.size > 0
+		@subcategories.each do |sc|
+-%>
+	<tr>
+		<%
+			@action = 'view_subcategory'
+			if sc.products.size > 0 then
+				@action = 'products'
+			end 
+		-%>
+		<td class="image"><%= link_to image_tag(sc.image, :size => sc.image_size, :alt => h(sc.subcategory)), {:controller => 'product', :action => @action, :id => sc.id}, {:title => h(sc.subcategory)} -%></td>
+		<td class="desc">
+			<%= link_to h(sc.subcategory), {:controller => 'product', :action => @action, :id => sc.id}, {:title => h(sc.subcategory)} -%>
+			<% unless sc.short_desc.nil? -%>
+			<span><%= h(sc.short_desc) -%></span>
+			<% end -%>
+		</td>
+	</tr>
+<%
+		end
+-%>
+</table>
+<%= link_to '&lt; Back to product categories', {:controller => 'product', :action => 'categories'}, {:title => 'Back to product categories', :class => 'std'} -%>
+<%
+	else 
+-%>
+<p>There are currently no subcategories available for <%= @category.category -%>.</p>
+<%
+	end
+-%>

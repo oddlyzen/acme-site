@@ -1,0 +1,19 @@
+<ul>
+	<% @subcategories.each do |sc| -%>
+		<li id="sc_<%= sc.id -%>">
+			<%			
+				@sc_id = sc.id.to_s
+				if sc.products.size > 0
+					@function = "showProducts('sc_" + @sc_id + "')"
+				else
+					if sc.product_sections.size > 0
+						@function = "showSections('sc_" + @sc_id + "')"
+					else
+						@function = "navToSubcategory('" + @sc_id + "')"
+					end
+				end
+			-%>
+			<%= link_to_function h(sc.subcategory), @function, :title => h(sc.subcategory) -%>
+		</li>
+	<% end -%>
+</ul>

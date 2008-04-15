@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/utils"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   committed-rev="67"
+   name="mctabs.js"
+   text-time="2007-01-02T01:04:14.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="d42a138db223253fd4ee8ca01779d064"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="validate.js"
+   text-time="2007-01-02T01:04:14.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="98268f2d4d0d784bec575eb4c63a8879"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="editable_selects.js"
+   text-time="2007-01-02T01:04:14.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="1c44120acff22e2a81b9069711c37cd6"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="mclayer.js"
+   text-time="2007-01-02T01:04:14.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="69482f8b4b34bc4551cbc3809dc632c8"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+<entry
+   committed-rev="67"
+   name="form_utils.js"
+   text-time="2007-01-02T01:04:14.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="e0ba7b41e6c87cbcbce67942b2552871"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:14.000000Z"/>
+</wc-entries>

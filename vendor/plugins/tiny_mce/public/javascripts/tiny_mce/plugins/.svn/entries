@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="67"
+   name=""
+   committed-date="2006-10-25T03:26:05.031538Z"
+   url="https://secure.near-time.com/svn/plugins/trunk/tiny_mce/public/javascripts/tiny_mce/plugins"
+   last-author="ben"
+   kind="dir"
+   uuid="7c507d47-1513-0410-95a0-a599ac62d117"
+   repos="https://secure.near-time.com/svn/plugins"
+   revision="74"/>
+<entry
+   name="media"
+   kind="dir"/>
+<entry
+   name="insertdatetime"
+   kind="dir"/>
+<entry
+   name="ntattachlink"
+   kind="dir"/>
+<entry
+   name="noneditable"
+   kind="dir"/>
+<entry
+   name="inlinepopups"
+   kind="dir"/>
+<entry
+   name="codeblock"
+   kind="dir"/>
+<entry
+   name="ntpagelink"
+   kind="dir"/>
+<entry
+   name="emotions"
+   kind="dir"/>
+<entry
+   name="iespell"
+   kind="dir"/>
+<entry
+   name="save"
+   kind="dir"/>
+<entry
+   name="ntimagelink"
+   kind="dir"/>
+<entry
+   name="advhr"
+   kind="dir"/>
+<entry
+   name="blockquote"
+   kind="dir"/>
+<entry
+   name="_template"
+   kind="dir"/>
+<entry
+   name="layer"
+   kind="dir"/>
+<entry
+   name="advimage"
+   kind="dir"/>
+<entry
+   name="preview"
+   kind="dir"/>
+<entry
+   name="directionality"
+   kind="dir"/>
+<entry
+   name="zoom"
+   kind="dir"/>
+<entry
+   name="visualchars"
+   kind="dir"/>
+<entry
+   name="devkit"
+   kind="dir"/>
+<entry
+   name="table"
+   kind="dir"/>
+<entry
+   name="cleanup"
+   kind="dir"/>
+<entry
+   name="autosave"
+   kind="dir"/>
+<entry
+   name="advlink"
+   kind="dir"/>
+<entry
+   name="print"
+   kind="dir"/>
+<entry
+   name="flash"
+   kind="dir"/>
+<entry
+   name="nonbreaking"
+   kind="dir"/>
+<entry
+   name="fullpage"
+   kind="dir"/>
+<entry
+   name="style"
+   kind="dir"/>
+<entry
+   name="searchreplace"
+   kind="dir"/>
+<entry
+   name="fullscreen"
+   kind="dir"/>
+<entry
+   name="contextmenu"
+   kind="dir"/>
+<entry
+   committed-rev="67"
+   name="readme.txt"
+   text-time="2007-01-02T01:04:18.000000Z"
+   committed-date="2006-10-25T03:26:05.031538Z"
+   checksum="b7ebe9c943f635853a60c4b37200ba11"
+   last-author="ben"
+   kind="file"
+   prop-time="2007-01-02T01:04:18.000000Z"/>
+<entry
+   name="paste"
+   kind="dir"/>
+<entry
+   name="xhtmlxtras"
+   kind="dir"/>
+</wc-entries>

@@ -1,0 +1,8 @@
+<h3><%= h(@category.category) -%></h3>
+<div>
+	<%= @category.content -%>
+</div>
+<% if @category.show_subcategories -%>
+<%= render :partial => 'subcategories_table', :layout => false -%>
+<% end -%>
+<%= link_to '&lt; Back to Product Categories', {:controller => 'product', :action => 'categories'}, {:title => 'Back to product categories', :class => 'std'} -%>

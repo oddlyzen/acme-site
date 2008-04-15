@@ -1,0 +1,13 @@
+<div class="article">
+  <h3>
+    <%= h(@article.title) %>
+  </h3>
+  <span class="byline">
+    by <%= h(@article.user.display_name) %>
+  </span>
+  <p class="article">
+    <%= sanitize(@article.body) %>
+  </p>
+  <br/>
+  <%= link_to "Back to Current News", {:action => :index} %>
+</div>

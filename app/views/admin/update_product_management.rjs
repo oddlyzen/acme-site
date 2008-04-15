@@ -1,0 +1,4 @@
+page.replace_html 'parent-products', :partial => 'parent_products'
+page.replace_html 'all-products', :partial => 'all_products'
+page.visual_effect :highlight, 'parent-products', :duration => 1
+page.sortable 'parent-products-list', :url => {:action => :sort_products}

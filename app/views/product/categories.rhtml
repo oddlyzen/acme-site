@@ -1,0 +1,33 @@
+<h3>ACME Product Categories</h3>
+<br />
+<table cellpadding="4" cellspaceing="0" class="categories">
+<%
+	if @categories.size > 0
+		@categories.each do |c|
+-%>
+	<tr>
+		<%
+			@action = 'view_category'
+			if c.product_subcategories.size > 0 then
+				@action = 'subcategories'
+			end 
+		-%>
+		<td class="image"><%= link_to image_tag(c.image, :size => c.image_size, :alt => h(c.image_alt)), {:controller => 'product', :action => @action, :id => c.id}, {:title => h(c.category)} -%></td>
+		<td class="desc">
+			<%= link_to h(c.category), {:controller => 'product', :action => @action, :id => c.id}, {:title => h(c.category)} -%>
+			<% unless c.short_desc.nil? -%>
+				<%= h(c.short_desc) -%>
+			<% end -%>
+		</td>
+	</tr>
+<%
+		end
+-%>
+</table>
+<%
+	else 
+-%>
+<p>There are currently no product categories available.</p>
+<%
+	end
+-%>

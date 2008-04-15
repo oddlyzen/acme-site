@@ -1,0 +1,9 @@
+<ul id="all-products-list">
+  <% for p in @products %>
+    <% domid = "product_#{p.id}" %>
+    <li class="all-product" id="<%= domid %>">
+      <%= p.product %>
+    </li>
+    <%= draggable_element(domid, :ghosting => true, :revert => true) %>
+  <% end %>
+</ul>

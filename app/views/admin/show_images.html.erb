@@ -1,0 +1,5 @@
+<% for image in @images -%>
+  <a href="javascript:void(0)" onclick="<%= "binc_insert_image('" + image.public_filename() + "', '" + image.filename + "');"  %>">
+    <%= image_tag image.public_filename() %>
+  </a>
+<% end -%>
