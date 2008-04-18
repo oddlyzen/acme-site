@@ -395,7 +395,7 @@ class AdminController < ApplicationController
   end
  
  
-  protected
+  protected #--------------------------------------------------------------------------->
   
   def find_remaining_products(parent)
     prods = Product.find(:all, :order => 'id desc')
@@ -407,7 +407,7 @@ class AdminController < ApplicationController
   
   
   
-  private
+  private #----------------------------------------------------------------------------->
   
   
 end
