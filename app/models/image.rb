@@ -6,7 +6,8 @@ class Image < ActiveRecord::Base
                   :storage      =>  :file_system,
                   :max_size     =>  500.kilobytes,
                   :resize_to    =>  '200x200>',
-                  :thumbnails => { :thumb => '50x50>', :thumb_large => '100X100>' }
+                  :thumbnails => { :thumb => '50x50>', :thumb_large => '100X100>' },
+                  :processor => :rmagick
                   
   validates_as_attachment
 
