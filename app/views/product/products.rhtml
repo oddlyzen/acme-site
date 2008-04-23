@@ -1,5 +1,5 @@
-<h3>Products for: <%= h(@category.category) -%>&nbsp;&gt;&nbsp;<%= h(@subcategory.subcategory) -%></h3>
-<p>General content here</p>
+<h3><%= h(@category.category) -%>&nbsp;&gt;&nbsp;<%= h(@subcategory.subcategory) -%></h3>
+
 <table cellpadding="4" cellspaceing="0" class="categories">
 <%
 	if @products.size > 0
