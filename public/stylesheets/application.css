@@ -176,6 +176,25 @@ body.request_quote ul#outer { list-style: disc inside; }
 body.request_quote li.noBullet { list-style: none; }
 body.request_quote ul#outer li ul { margin: 0 0 20px 20px; }
 
+/* Fabrics Page Styles */
+body.fabrics ul li
+{
+	list-style: disc;
+}
+body.fabrics img
+{
+	padding: 20px;
+}
+body.fabrics p
+{
+	padding-top: 10px;
+}
+body.fabrics h3
+{
+	color: #000;
+}
+
+
 /* news > articles */
 div.article
 {
