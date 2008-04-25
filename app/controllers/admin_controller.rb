@@ -12,7 +12,7 @@ class AdminController < ApplicationController
                              :theme_advanced_resize_horizontal => false,
                              :paste_auto_cleanup_on_paste => true,
                              :theme_advanced_blockformats => %{pre,code,samp},
-                             :extended_valid_elements => %w{samp[class|dir<ltr?rtl|id|lang|onclick|ondblclick|onkeydown|onkeypress|onkeyup|onmousedown|onmousemove|onmouseout|onmouseover|onmouseup|style|title],code[class|dir<ltr?rtl|id|lang|onclick|ondblclick|onkeydown|onkeypress|onkeyup|onmousedown|onmousemove|onmouseout|onmouseover|onmouseup|style|title],cite[title|id|class|style|dir|lang],abbr[title|id|class|style|dir|lang]},
+                             :extended_valid_elements => %w{samp[class|dir<ltr?rtl|id|lang|onclick|ondblclick|onkeydown|onkeypress|onkeyup|onmousedown|onmousemove|onmouseout|onmouseover|onmouseup|style|title],code[class|dir<ltr?rtl|id|lang|onclick|ondblclick|onkeydown|onkeypress|onkeyup|onmousedown|onmousemove|onmouseout|onmouseover|onmouseup|style|title],cite[title|id|class|style|dir|lang],abbr[title|id|class|style|dir|lang],a[title|id|class|style|dir|lang|href]},
                              :theme_advanced_buttons1 => %w{bold italic strikethrough separator indent outdent separator search replace separator print preview separator},
                              :theme_advanced_buttons2 => [%w{bullist numlist separator link unlink binc_image separator undo redo code}],
                              :theme_advanced_buttons3 => [%w{}],
@@ -145,6 +145,15 @@ class AdminController < ApplicationController
       format.html
       format.js
     end
+  end
+  
+  def delete_image
+    if request.post?
+      image = Image.find(params[:id])
+      image.destroy
+    end
+    flash[:notice] = "Image Deleted Successfully"
+    redirect_to :action => :show_images
   end
   
   # Category Administration

@@ -1,5 +1,20 @@
+<h4 style="font-family:sans-serif;color:blue;">
+  Image Management
+</h4>
+<p style="font-family:sans-serif;font-size:.8em;color:red;border-bottom:gray dotted 1px;padding-bottom: 7px;margin-bottom:-2px;">
+  Your uploaded image sets are displayed below. The large image in the set is the original you uploaded.  Two smaller thumbnail images were created from that original.
+  You can delete either of the thumbnails individually.  If you delete the large image, however, the entire set will be removed.
+</p>
+<div style="width:100%;clear:both;padding-top:10px;text-align:center;font-size:.7em;font-family: sans-serif;border-bottom:gray dotted 1px;padding-bottom: 7px;margin-bottom:7px;">
+  <%= link_to "Back to Admin Dashboard", {:action => :index} %> | <%= link_to "Upload an Image", {:action => :add_image} %>
+</div>
 <% for image in @images -%>
-  <a href="javascript:void(0)" onclick="<%= "binc_insert_image('" + image.public_filename() + "', '" + image.filename + "');"  %>">
-    <%= image_tag image.public_filename() %>
-  </a>
+  <div style="width:30%;float:left;height:250px;background-color:#cf9;border:1px dashed #a96;margin:3px;padding-top:5px;text-align:center;">
+    <%= image_tag(image.public_filename()) %><br />
+    <%= link_to "Delete", {:action => :delete_image, :id => image}, {:method => :post, :confirm => 'Are you sure you wish to delete this image or image set?'}  %>
+  </div>
 <% end -%>
+<br />
+<div style="width:100%;clear:both;padding-top:10px;text-align:center;font-size:.7em;font-family: sans-serif;border-top:gray dotted 1px;">
+  <%= link_to "Back to Admin Dashboard", {:action => :index} %> | <%= link_to "Upload an Image", {:action => :add_image} %>
+</div>

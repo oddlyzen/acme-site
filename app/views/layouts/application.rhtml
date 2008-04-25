@@ -2,8 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="keywords" content="environment, environmental, green, technology, contaminates, spills, waste removal, toxic, industrial spills, sorbents, oklahoma, tulsa, environment, environmental services, environmental products, EPA, environmental law, <%= @article.keywords if @article %>"/>
-    <meta name="description" content="<%= @article.description + " " if @article %>ACME Environmental - Since 1967, ACME Environmental has been a leader in the design, manufacture and use of environmental products that control, collect and remove floating contaminates of the surface of water, as well as products that handle most industrial spills."/>
+		<meta name="keywords" content="environment, environmental, green, technology, contaminates, spills, waste removal, toxic, industrial spills, sorbents, oklahoma, tulsa, environment, environmental services, environmental products, EPA, environmental law, <%= h(@article.keywords) if @article %>"/>
+    <meta name="description" content="<%= @article.description.gsub(/<\/?[^>]*>/, "") + " " if @article %>ACME Environmental - Since 1967, ACME Environmental has been a leader in the design, manufacture and use of environmental products that control, collect and remove floating contaminates of the surface of water, as well as products that handle most industrial spills."/>
     
 		<title><%= @page_title -%></title>
 		<%= stylesheet_link_tag 'application' %>
