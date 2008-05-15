@@ -1,7 +1,7 @@
 <div id="manage-products">
   <div id="left-container" style="width:48%;float:left;height:100%;">
     <h4>Current Products for '<%= @parent_name %>'</h4>
-      <div id="parent-products">
+      <div id="parent-products" class="empty">
         <%= render :partial => "parent_products" %>
       </div>
       <span style="font-size:.8em;margin-top:15px;display:block;"><%= link_to "Back to '#{@parent_name}'", "#{request.env_table["HTTP_REFERER"]}" %></span>

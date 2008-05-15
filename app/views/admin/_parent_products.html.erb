@@ -6,4 +6,9 @@
     </li>
     <%= draggable_element(domid, :ghosting => true, :revert => true) %>
   <% end %>
+  <% if @parent.products.length == 0 %>
+    <p>
+      <span style="color:red;font-size:1.3em;font-weight:bold;">No items.</span><br /><br /><em style="font-size:1.2em;color:#777;">Please drag and drop a product here to add it. You can also arrange display order for the items in this list by dragging the items into the desired order.</em>
+    </p>
+  <% end %>
 </ul>

@@ -300,6 +300,12 @@ div#manage-products ul li
 	padding: 1px;
 	cursor: -moz-grab;
 }
+div.empty
+{
+	min-height: 75px;
+	border: #aba 1px dashed;
+	padding: 10px;
+}
 div#manage-products ul li.parent-product
 {
 }
@@ -314,4 +320,15 @@ div.hovering
 {
 	border: 1px dotted darkgray;
 	background-color: lightblue;
+}
+
+/* Messages */
+div.errorExplanation
+{
+	color: red;
+}
+
+.required
+{
+	color: red;
 }

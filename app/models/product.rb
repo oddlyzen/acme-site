@@ -8,6 +8,8 @@ class Product < ActiveRecord::Base
   
   has_many :section_products
   has_many :product_sections, :through => :section_products
+  
+  validates_presence_of :position, :product, :price
 	
 	def list_image_size
 		[list_image_width, list_image_height].compact.join('x')

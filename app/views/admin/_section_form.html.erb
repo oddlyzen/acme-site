@@ -27,6 +27,9 @@
      <label for="section_active">Section is Active?</label>
      <%= form.check_box :active %>
    </p>
+   <% unless @subcategory.nil? %>
+     <%= hidden_field :section, :product_subcategory_id, {:value => @subcategory.id} %>
+   <% end %>
    <% unless @section.id.nil? %>
      <p>
        <h5 style="padding-bottom:5px;">Products</h5>

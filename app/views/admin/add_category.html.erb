@@ -1,10 +1,10 @@
 <div class="admin-form">
   
   <%= error_messages_for :category %>
-  
+
   <fieldset>
     <legend>Add New Category</legend>
-    <% form_for :category, :action => :add_category do |form| %>
+    <% form_for :category, {:action => :add_category} do |form| %>
     
       <%= render :partial => "category_form", :locals => { :form => form } %>
     

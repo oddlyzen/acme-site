@@ -9,6 +9,8 @@ class ProductSubcategory < ActiveRecord::Base
 	has_many :subcategory_accessories
 	has_many :accessories, :through => :subcategory_accessories
 	
+	validates_presence_of :position
+	
 	def image_size
 		[width, height].compact.join('x')
 	end

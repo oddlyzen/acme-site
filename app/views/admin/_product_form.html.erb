@@ -1,3 +1,4 @@
+<span class="required">Fields marked with * are required.</span><br /><br />
 <% unless @product.large_image.nil? -%>
   <%= image_tag @product.large_image, {:style => "float:left;padding:5px;background-color:lightgray;border:gray 1px solid;margin:5px;clear:both;", :alt => "No Image"} %>
 <% end -%>
@@ -25,7 +26,7 @@
   <%= form.text_field :list_image_height, :size => 3 %>
 </p>
   <p>
-    <label for="product_product">Product Name:</label>
+    <span class="required">*</span><label for="product_product">Product Name:</label>
     <%= form.text_field :product, :size => 50 %>
   </p>
   <p>
@@ -33,7 +34,7 @@
     <%= form.text_field :alternate_title, :size => 50 %>
   </p>
   <p>
-    <label for="product_price">Product Price:</label>
+    <span class="required">*</span><label for="product_price">Product Price:</label>
     <%= form.text_field :price, :size => 10 %>
   </p>
   <p>
@@ -58,7 +59,7 @@
     <%= form.check_box :show_cart %>
   </p>
   <p>
-    <label for="product_position">Product Position:</label>
+    <span class="required">*</span><label for="product_position">Product Position:</label>
     <%= form.text_field :position, :size => 3 %><br/>
     <span style="font-size:.8em;color:gray;">(Note: Lower numbers are place higher in the product list.)</span>
   </p>

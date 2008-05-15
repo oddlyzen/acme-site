@@ -28,9 +28,17 @@
       <%= form.text_field :permalink, :size => 50 %>
     </p>
     <p>
+        <span class="required">*</span><label for="subcategory_position">Position:</label>
+        <%= form.text_field :position, :size => 2 %>
+      </p>
+    <p>
       <label for="subcategory_active">Subcategory is Active?</label>
       <%= form.check_box :active %>
     </p>
+    <% unless @category.nil? %>
+      <%= hidden_field :subcategory, :product_category_id, {:value => @category.id} %>
+    <% end %>
+    
     <% unless @subcategory.id.nil? %>
       <p>
         <h5 style="padding-bottom:5px;">Sections</h5>

@@ -191,12 +191,16 @@ class AdminController < ApplicationController
       category.destroy
     end
     flash[:notice] = "Category deleted successfully."
-    render :action => :list_categories
+    redirect_to :action => :list_categories
   end
   
   # Subcategory Administration
   def add_subcategory
-    @category = ProductCategory.find(params[:category_id])
+    if params[:category_id]
+      @category = ProductCategory.find(params[:category_id])
+    elsif params[:subcategory][:product_category_id]
+      @category = ProductCategory.find(params[:subcategory][:product_category_id])
+    end
     @subcategory = ProductSubcategory.new(params[:subcategory])
     @subcategory.product_category = @category
     if request.post? and @subcategory.save
@@ -230,13 +234,17 @@ class AdminController < ApplicationController
       subcategory = ProductSubcategory.find(params[:id])
       subcategory.destroy
       flash[:notice] = "Subcategory deleted successfully."
-      render :action => :edit_category, :id => subcategory.product_category
+      redirect_to :action => :list_subcategories
     end
   end
   
   # Section Administration
   def add_section
-    @subcategory = ProductSubcategory.find(params[:subcategory_id])
+    if params[:subcategory_id]
+      @subcategory = ProductSubcategory.find(params[:subcategory_id])
+    elsif params[:section][:product_subcategory_id]
+      @subcategory = ProductSubcategory.find(params[:section][:product_subcategory_id])
+    end
     @section = ProductSection.new(params[:section])
     @section.product_subcategory = @subcategory
     if request.post? and @section.save
@@ -270,7 +278,7 @@ class AdminController < ApplicationController
       section = ProductSection.find(params[:id])
       section.destroy
       flash[:notice] = "Section deleted successfully."
-      render :action => :edit_subcategory, :id => section.product_subcategory
+      redirect_to :action => :list_sections
     end
   end
   
@@ -399,7 +407,7 @@ class AdminController < ApplicationController
       p = Product.find(params[:id])
       p.destroy
       flash[:notice] = "Product deleted successfully."
-      render :action => :list_products
+      redirect_to :action => :list_products
     end
   end
  
