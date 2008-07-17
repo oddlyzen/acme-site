@@ -71,7 +71,7 @@ div#content ul li a:hover, div#content p a:hover { text-decoration: underline; }
 
 /* categorical listings */
 table.categories td { text-align: left; vertical-align: middle; padding-bottom: 6px; font-size: .75em; line-height: 1em; }
-table.categories td a { color: #124c92; font-weight: bold; display: inline; }
+table.categories td a { color: #124c92; font-weight: bold; display: block; }
 table.categories td.image { padding-right: 12px; }
 table.categories td.image img { border: solid 1px #000; }
 table.categories td.desc { padding-right: 18px; color: #124c92; }
