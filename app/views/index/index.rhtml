@@ -6,13 +6,6 @@
 					<div class="left">
 						<ul>
 							<li><%= link_to 'Request a quote online', {:controller => 'request_quote', :action => 'index'}, {:title => 'Request a quote online'} -%></li>
-							<li><%= link_to 'Purchase sorbents online', {:controller => 'product', :action => 'subcategories', :id => 3}, {:title => 'Purchase sorbents online'} -%></li>
-							<li class="no_bullet">
-								<ul>
-									<li>Competitive Prices</li>
-									<li>Same day / Next day delivery on most products for customers within 50 miles of Tulsa, OK</li>
-								</ul>
-							</li>
 							<li>Get complete information on all ACME products &amp; services</li>
 							<li><%= link_to 'Contact ACME', {:controller => 'contact', :action => 'index'}, {:title => 'Contact ACME'} -%></li>
 						</ul>
@@ -23,6 +16,6 @@
 				</div>
 				<%= javascript_include_tag 'swfobject' -%>
 				<script type="text/javascript">
-					var so = new SWFObject('/flash/vignettes.swf', 'vignettes', '285', '200', '8', '#ffffff');
+					var so = new SWFObject('/flash/vignettes.swf', 'vignettes', '283', '222', '8', '#ffffff');
 					so.write('flash');
 				</script>

@@ -55,6 +55,12 @@ body.contact div#container ul#main_nav li#contact_acme a, body.request_quote div
 div#container div#content { float: right; width: 599px; padding: 48px; overflow: auto; }
 
 div#content p { margin-bottom: 10px; font-size: .8125em; }
+div#content a img {
+	border: 1px black solid;
+	float: left;
+	margin: 10px;
+	clear: both;
+}
 div#content h3, div#content h4 { font-size: 1em; font-weight: bold; color: #124c92; margin-bottom: 4px; }
 div#content h3 a, div#content h4 a { color: #124c92; }
 
