@@ -1,5 +1,5 @@
 Event.observe(window, 'load', function (){
 	
-	$('contact_us').href = 'mailto:info@acme.com'
+	$('contact_us').href = 'mailto:info@acmeboom.com'
 	
 });
